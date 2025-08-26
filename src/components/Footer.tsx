@@ -17,7 +17,7 @@ export function Footer() {
       <div className="flex flex-1 flex-col items-start justify-center gap-5">
         <Banner className="h-6" />
         <p className="text-xs">
-          An open-source unblocked games website built with simplicity in mind.
+          An nunblocked games website built with simplicity in mind.
         </p>
         <div className="flex items-center gap-5">
           <a

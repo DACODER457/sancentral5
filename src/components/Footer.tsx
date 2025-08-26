@@ -19,41 +19,6 @@ export function Footer() {
         <p className="text-xs">
           An nunblocked games website built with simplicity in mind.
         </p>
-        <div className="flex items-center gap-5">
-          <a
-            href="https://github.com/Radon-Games/Radon-Games"
-            target="_blank"
-            className="transition-colors hover:text-accent-primary"
-            aria-label="GitHub"
-          >
-            <PiGithubLogoBold />
-          </a>
-          <a
-            href="https://discord.gg/unblock"
-            target="_blank"
-            className="transition-colors hover:text-accent-primary"
-            aria-label="Discord"
-          >
-            <PiDiscordLogoBold />
-          </a>
-          <a
-            href="https://www.patreon.com/Radon_Games"
-            target="_blank"
-            className="transition-colors hover:text-accent-primary"
-            aria-label="Patreon"
-          >
-            <PiPatreonLogoBold />
-          </a>
-          <a
-            href={`https://github.com/Radon-Games/Radon-Games/releases/tag/v${version}`}
-            target="_blank"
-            className="flex items-center gap-2 hover:text-accent-primary"
-            aria-label="Changelog"
-          >
-            <PiGitBranchBold /> <span className="text-sm">v{version}</span>
-          </a>
-        </div>
-      </div>
       <div className="flex gap-12 text-sm">
         <div className="flex flex-col gap-2">
           <a href="/" className="hover:text-accent-primary">
